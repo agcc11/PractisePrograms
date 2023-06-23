@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functiondemo by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-main1(failed)">
+    <groups>
+      <run>
+        <include name="main1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="seleniumPractise.testclassFlipkartHomePage">
+        <methods>
+          <include name="logibtnmethodtest"/>
+          <include name="searchboxmethodtest"/>
+        </methods>
+      </class> <!-- seleniumPractise.testclassFlipkartHomePage -->
+    </classes>
+  </test> <!-- GRP-main1(failed) -->
+</suite> <!-- Failed suite [Functiondemo by groups] -->

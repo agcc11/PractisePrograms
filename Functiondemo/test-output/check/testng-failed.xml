@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [check]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="anno(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNG_02pack.parameter_concept">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+          <include name="test2"/>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- testNG_02pack.parameter_concept -->
+    </classes>
+  </test> <!-- anno(failed) -->
+</suite> <!-- Failed suite [check] -->
