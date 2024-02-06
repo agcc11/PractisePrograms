@@ -48,27 +48,23 @@ public class Practise {
 	//*[@id="customers"]/tbody/tr[4]/td[1]
 	public static void main(String[] args) throws InterruptedException, IOException, Exception {
 		
-		System.setProperty("webdriver.chrome.driver", "G:\\selenium\\chromedriverfolder\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.w3schools.com/html/html_tables.asp");
-		Thread.sleep(3000);
-		JavascriptExecutor jse=(JavascriptExecutor)driver;
-		Thread.sleep(3000);
-		jse.executeScript("window.scrollBy(0,500)");
-	
-		int r=driver.findElements(By.xpath("//table[@id='customers']//tr")).size();
-		int d=driver.findElements(By.xpath("//table[@id='customers']//td")).size();
-		System.out.println(r+" "+d);
-	
-		for(int i=1;i<r;i++)
+//		System.setProperty("webdriver.chrome.driver", "G:\\selenium\\chromedriverfolder\\chromedriver.exe");
+//		WebDriver driver=new ChromeDriver();
+//		driver.get("https://www.w3schools.com/html/html_tables.asp");
+//		
+		
+		
+		//PROGRAM ON REVERSE NUMBER AND PALINDROME
+		
+		int a=121;
+		int temp=a;
+		int rem;
+		while(temp>0)
 		{
-			for(int j=1;j<=d;j++)
-			{
-				String te=driver.findElement(By.xpath("//*[@id=\"customers\"]/tbody/tr["+(i+1)+"]/td["+j+"]")).getText();
-				System.out.println(te);
-			}
+			rem=temp%10;
 			
 		}
+			
 		
 		
 	

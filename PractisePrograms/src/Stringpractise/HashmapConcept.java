@@ -76,6 +76,35 @@ public class HashmapConcept {
 	}
 	
 	
+		
+			//Interview Question
+		// Occurance of character from string
+/*	String a=" i am learning learning java java programing java i java";
+	String ss[]=a.split(" ");
+	String d="";
+	for(int i=0;i<ss.length;i++)
+	{
+		d=d+ss[i];
+	}
+	System.out.println(d);
+	char ch[]=d.toCharArray();
+	HashMap<Character,Integer>hm=new HashMap<Character,Integer>();
+	for(int i=0;i<=ch.length-1;i++)
+	{
+		if(hm.containsKey(ch[i]))
+		{
+			hm.put(ch[i],hm.get(ch[i])+1);
+		}
+		else
+		{
+			hm.put(ch[i],1);
+		}
+	}
+	for(Map.Entry entry:hm.entrySet())
+	{
+		System.out.println(entry.getKey()+" "+entry.getValue());
+	}
+	*/
 	
 	
 	}

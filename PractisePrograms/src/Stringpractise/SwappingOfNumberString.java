@@ -53,7 +53,7 @@ public class SwappingOfNumberString {
 		System.out.println(s1);
 		System.out.println(s2);
 		
-		s1=s1+s2;
+		s1=s1+s2;  //helloworld(10-5)
 		s2=s1.substring(0, s1.length()-s2.length());
 		s1=s1.substring(s2.length());
 		System.out.println("After Swaping");
